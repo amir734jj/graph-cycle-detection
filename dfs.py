@@ -13,7 +13,7 @@ class DfsGraph(Graph):
         visited[v] = True
         rec_stack[v] = True
 
-        # Recur for all neighbours
+        # Recursive for all neighbours
         # if any neighbour is visited and in
         # recStack then graph is cyclic
         for neighbour in self.graph[v]:
